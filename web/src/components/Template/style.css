@@ -1,0 +1,100 @@
+ .content{
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: #0D0D0D;
+  color: #F2F2F2;
+}
+
+sidebar{
+  width: 300px;
+}
+
+.icn-menu{
+  margin-left: 20px;
+  margin-top: 0px;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.h{
+  margin-top: 20px;
+}
+
+.icn-menu:hover{
+  opacity: 0.5;
+}
+
+.logo{
+  color: #F2F2F2;
+  margin-left: 145px;
+  margin-top: -40px;
+  font: 700 30px Roboto;
+  cursor: default;
+}
+
+.menu_selected{
+  font: 24px Roboto;
+  margin-left: 20px;
+  cursor: default;
+}
+
+.submenus{
+  margin-left: 150px;
+  cursor: pointer;
+}
+
+.op_submenu{
+  font: 20px Roboto;
+  color: #F2F2F2;
+  text-decoration: none;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.op_submenu:hover{
+  opacity: 1.0;
+}
+
+.content-menu{
+  width: 350px;
+  height: 100vh;
+  background-color: #0D0D0D;
+}
+
+.menu{
+  margin-top: 100px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font: 24px Roboto;
+  color: #F2F2F2;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s, opacity 0.2s;  ;
+}
+
+
+.sair{
+  margin-top: 335px;
+  padding: 10px 20px;
+  width: 350px;
+  color: #F2F2F2;
+  font: 24px Roboto;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.2s, color 0.2s;
+  background-color: #0D0D0D;
+}
+
+.menu:hover{
+  background-color: #f2f2f2;
+  color: #0D0D0D;
+}
+
+.sair:hover{
+  background-color: #f2f2f2;
+  color: #0D0D0D;
+}

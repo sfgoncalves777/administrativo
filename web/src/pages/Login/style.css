@@ -1,0 +1,88 @@
+* {
+  border: 0px;
+}
+
+.content-login {
+  background-color: #0D0D0D;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-login .content-form {
+  margin: 0 auto;
+  border-radius: 8px;
+  width: 700px;
+  height: auto;
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+
+.content-login .content-form .logo {
+  margin: 0 auto 20px auto;
+  font: 700 37px Roboto;
+  color: #EBEBF2;
+}
+
+.content-login .content-form input {
+  width: 600px;
+  height: 50px;
+  font: 30px Roboto;
+  color: #0D0D0D;
+  margin-top: 30px;
+  background-color: #EBEBF2;
+  padding: 0px 8px;
+  border-radius: 8px;
+}
+
+.content-login .content-form .foother {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.content-login .content-form .foother a {
+  text-decoration: none;
+  font: 500 15px Roboto;
+  color: #EBEBF2;
+  transition: all 0.2s;
+}
+
+.content-login .content-form .foother .error {
+  font: 700 15px Roboto;
+  color: #da0202;
+  cursor: default;
+}
+
+.content-login .content-form button {
+  width: 600px;
+  height: 50px;
+  font: 20px Roboto;
+  margin-top: 30px;
+  border-radius: 10px;
+  border: 0px;
+  background: #0D0D0D;
+  color: #F2F2F2;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.content-login .content-form ::-webkit-input-placeholder {
+  color:#262626;
+}
+
+.content-login .content-form .foother a:hover {
+  opacity: 0.8;
+}
+
+.content-login .content-form button:hover {
+  opacity: 0.9;
+}
+
+.content-login .content-form input:focus {
+  outline: 0;
+}

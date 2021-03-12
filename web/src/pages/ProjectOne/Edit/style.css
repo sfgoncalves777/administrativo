@@ -1,0 +1,108 @@
+.content-projectone_edit .usuário {
+  opacity: 1;
+}
+
+.content-projectone_edit form {
+  margin-left: 20px;
+  width: 500px;
+  height: 500px;
+}
+
+.content-projectone_edit .header {
+  margin-left: 20px;
+  margin-top: 30px;
+  height: 40px;
+}
+
+.content-projectone_edit .title {
+  color: #0D0D0D;
+  font: 700 24px Roboto;
+  cursor: default;
+}
+
+.content-projectone_edit input {
+  width: 500px;
+  height: 32px;
+  border-radius: 6px;
+  border: solid 2px;
+  margin-top: 5px;
+  font: 400 18px Roboto;
+  padding: 0 8px;
+  color: #0D0D0D;
+  background-color: #EBEBF2;
+}
+
+.content-projectone_edit select {
+  width: 500px;
+  height: 32px;
+  border-radius: 6px;
+  border: solid 2px;
+  margin-top: 5px;
+  font: 400 18px Roboto;
+  padding: 0 8px;
+  color: #0D0D0D;
+  background-color: #EBEBF2;
+}
+
+.content-projectone_edit .info {
+  margin-top: 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.content-projectone_edit .info .error {
+  font: 500 16px Roboto;
+  color: #940000;
+}
+
+.content-projectone_edit .foother {
+  margin-top: 164px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content-projectone_edit .back {
+  display: flex;
+  align-items: center;
+  font: 20px Roboto;
+  color: #0D0D0D ;
+  transition: all 0.2s;
+}
+
+.content-projectone_edit .icon {
+  margin-right: 5px;
+}
+
+.content-projectone_edit .buttons {
+  width: 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-projectone_edit button {
+  padding: 7px 30px 6px 30px;
+  border: 0px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+
+.content-projectone_edit .save {
+  background-color: #0D0D0D;
+}
+
+.content-projectone_edit .delete {
+  background-color: #660000;
+}
+
+.content-projectone_edit button:hover {
+  opacity: 0.9;
+}
+
+.content-projectone_edit .back:hover {
+  opacity: 0.9;
+}
